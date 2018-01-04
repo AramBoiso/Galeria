@@ -7,6 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { ImageListComponent } from './image-list/image-list.component';
 import { ImageComponent } from './image-list/image.component';
+import { ImageService } from './services/image.service';
 
 
 @NgModule({
@@ -20,7 +21,7 @@ import { ImageComponent } from './image-list/image.component';
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [ImageService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
