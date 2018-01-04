@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import {Image} from '../models/image';
+import {Image} from '../../models/image';
 
 @Component({
   selector: 'ng-image',
@@ -12,6 +12,7 @@ import {Image} from '../models/image';
     margin-bottom:10px;
     width: 250px;
     height: 200px;
+    
   }
   
   img:hover {

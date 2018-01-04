@@ -1,0 +1,8 @@
+<!-- Aqui se muestra los contenidos por medio de image-->
+<ng-image-detail [selectedImage]="selectedImage"></ng-image-detail>
+
+<div class="container mt-5">
+  <div class="row">
+    <ng-image *ngFor="let image of images" [image]="image" (click)="onSelected(image)"></ng-image>
+  </div>
+</div> 
